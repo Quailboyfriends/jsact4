@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-top: 210px;
+}
+
+body.oscuro {
+    background-color: black;
+    color: white;
+}
+
+#botonCambiarModo {
+    border: 0;
+    padding: 1rem 2rem;
+    background-color: black;
+    font-size: 1.5rem;
+    border-radius: 9px;
+}
+
+body.oscuro #botonCambiarModo {
+    background-color: white;
+}
+
+body, #botonCambiarModo {
+    transition: all 0.5s ease-in-out;
+}
+
+img {
+
+    align-items: center;
+    width: 150px;
+
+}
